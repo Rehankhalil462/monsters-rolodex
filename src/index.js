@@ -4,10 +4,18 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// const name = 'Rehan khalil'
+// const currdate= new Date().toLocaleDateString();
+// const currtime= new Date().toLocaleTimeString();
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+/* <React.Fragment>
+     <h1>My name is {name} </h1>,
+     <p> todays date is {currdate}</p>
+     <p> todays time is {currtime}</p> 
+  </React.Fragment> */
+   <React.Fragment>    <App/>
+   </React.Fragment>
+   ,
   document.getElementById('root')
 );
 
